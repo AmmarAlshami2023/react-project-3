@@ -41,7 +41,7 @@ function Cart(props) {
           <spam>{totleAmount}</spam>
         </div>
         <div className={classes.actions}>Cart</div>
-        <button className={classes["button--alt"]} onClick={props.noClose}>
+        <button className={classes["button--alt"]} onClick={props.onClose}>
           Close
         </button>
         {hasItems && <button className={classes.button}>Order</button>}
